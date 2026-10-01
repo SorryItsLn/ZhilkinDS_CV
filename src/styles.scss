@@ -1,1 +1,76 @@
-/* You can add global styles to this file, and also import other style files */
+:root {
+  --bg: #f4f6f9;
+  --surface: #ffffff;
+  --ink: #131a26;
+  --muted: #5b6575;
+  --line: #d9dee7;
+  --accent: #2f4fd8;
+  --accent-ink: #ffffff;
+  --radius: 10px;
+  --font: 'Onest', system-ui, -apple-system, 'Segoe UI', sans-serif;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme='light']) {
+    --bg: #0f1420;
+    --surface: #171e2d;
+    --ink: #e8ecf4;
+    --muted: #97a2b5;
+    --line: #2a3347;
+    --accent: #8aa2ff;
+    --accent-ink: #0f1420;
+  }
+}
+:root[data-theme='dark'] {
+  --bg: #0f1420;
+  --surface: #171e2d;
+  --ink: #e8ecf4;
+  --muted: #97a2b5;
+  --line: #2a3347;
+  --accent: #8aa2ff;
+  --accent-ink: #0f1420;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+html {
+  scroll-behavior: smooth;
+}
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+}
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--ink);
+  font: 400 1rem/1.6 var(--font);
+}
+a {
+  color: var(--accent);
+  text-underline-offset: 3px;
+}
+a:focus-visible,
+button:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 3px;
+}
+h1,
+h2,
+h3,
+p,
+ul {
+  margin: 0;
+}
+ul {
+  padding: 0;
+  list-style: none;
+}
+h2 {
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin-bottom: 1.25rem;
+}

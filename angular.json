@@ -10,12 +10,43 @@
       "projectType": "application",
       "schematics": {
         "@schematics/angular:component": {
-          "style": "scss"
+          "type": "component",
+          "style": "scss",
+          "skipTests": true
+        },
+        "@schematics/angular:directive": {
+          "type": "directive",
+          "skipTests": true
+        },
+        "@schematics/angular:service": {
+          "type": "service",
+          "skipTests": true
+        },
+        "@schematics/angular:pipe": {
+          "type": "pipe",
+          "skipTests": true
+        },
+        "@schematics/angular:guard": {
+          "typeSeparator": ".",
+          "skipTests": true
+        },
+        "@schematics/angular:resolver": {
+          "typeSeparator": ".",
+          "skipTests": true
         }
       },
       "root": "",
       "sourceRoot": "src",
       "prefix": "app",
+      "i18n": {
+        "sourceLocale": "ru",
+        "locales": {
+          "en": {
+            "translation": "src/locale/messages.en.xlf",
+            "subPath": "en"
+          }
+        }
+      },
       "architect": {
         "build": {
           "builder": "@angular/build:application",
@@ -23,23 +54,24 @@
             "browser": "src/main.ts",
             "tsConfig": "tsconfig.app.json",
             "inlineStyleLanguage": "scss",
+            "localize": true,
+            "i18nMissingTranslation": "warning",
             "assets": [
               {
                 "glob": "**/*",
                 "input": "public"
               }
             ],
-            "styles": [
-              "src/styles.scss"
-            ],
+            "styles": ["src/styles.scss"],
             "server": "src/main.server.ts",
             "outputMode": "server",
             "security": {
-              "allowedHosts": []
+              "allowedHosts": ["localhost"]
             },
             "ssr": {
               "entry": "src/server.ts"
-            }
+            },
+            "polyfills": ["@angular/localize/init"]
           },
           "configurations": {
             "production": {

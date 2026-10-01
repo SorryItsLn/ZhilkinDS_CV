@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+  <file source-language="ru" target-language="en" datatype="plaintext" original="ng2.template">
+    <body>
+      <trans-unit id="about.about_me" datatype="html">
+        <source>Обо мне</source>
+        <target>About me</target>
+      </trans-unit>
+      <trans-unit id="about.experience" datatype="html">
+        <source> Больше четырёх лет пишу на Angular: от 14-й версии до 21-й, сейчас на Signals, standalone-компонентах и zoneless. Основная специализация: Angular, Nx, RxJS. </source>
+        <target>I have been writing Angular for over four years, from version 14 to 21, and now work with Signals, standalone components and zoneless. My main specialization is Angular, Nx and RxJS.</target>
+      </trans-unit>
+      <trans-unit id="about.achievements" datatype="html">
+        <source> Запускал фронтенд-проект с нуля, развивал UI-библиотеку, настраивал монорепозиторий и CI/CD, проводил код-ревью и собеседования. </source>
+        <target>I launched a frontend project from scratch, developed a UI library, set up a monorepo and CI/CD, and conducted code reviews and interviews.</target>
+      </trans-unit>
+      <trans-unit id="header.name" datatype="html">
+        <source>Дмитрий Жилкин</source>
+        <target>Dmitry Zhilkin</target>
+      </trans-unit>
+      <trans-unit id="header.role" datatype="html">
+        <source> Frontend-разработчик, Angular<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br /&gt;"/>Пермь · гибрид и удалённо </source>
+        <target>Frontend Developer, Angular<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br /&gt;"/>Perm · hybrid or remote</target>
+      </trans-unit>
+      <trans-unit id="header.nav_label" datatype="html">
+        <source>Разделы</source>
+        <target>Sections</target>
+      </trans-unit>
+      <trans-unit id="header.nav_about" datatype="html">
+        <source>Обо мне</source>
+        <target>About</target>
+      </trans-unit>
+      <trans-unit id="header.nav_experience" datatype="html">
+        <source>Опыт</source>
+        <target>Experience</target>
+      </trans-unit>
+      <trans-unit id="header.nav_projects" datatype="html">
+        <source>Проекты</source>
+        <target>Projects</target>
+      </trans-unit>
+      <trans-unit id="header.nav_skills" datatype="html">
+        <source>Навыки</source>
+        <target>Skills</target>
+      </trans-unit>
+      <trans-unit id="header.nav_contacts" datatype="html">
+        <source>Контакты</source>
+        <target>Contacts</target>
+      </trans-unit>
+      <trans-unit id="header.telegram" datatype="html">
+        <source> Написать в Telegram </source>
+        <target>Message on Telegram</target>
+      </trans-unit>
+      <trans-unit id="header.download_pdf" datatype="html">
+        <source>Скачать PDF</source>
+        <target>Download PDF</target>
+      </trans-unit>
+      <trans-unit id="header.theme_label" datatype="html">
+        <source>Переключить тему</source>
+        <target>Toggle theme</target>
+      </trans-unit>
+      <trans-unit id="header.theme" datatype="html">
+        <source> Тема </source>
+        <target>Theme</target>
+      </trans-unit>
+      <trans-unit id="contacts.title" datatype="html">
+        <source>Контакты</source>
+        <target>Contacts</target>
+      </trans-unit>
+      <trans-unit id="contacts.email" datatype="html">
+        <source>Почта</source>
+        <target>Email</target>
+      </trans-unit>
+      <trans-unit id="experience.title" datatype="html">
+        <source>Опыт работы</source>
+        <target>Work experience</target>
+      </trans-unit>
+      <trans-unit id="experience.proinfo_company" datatype="html">
+        <source>ПроИнфоСервис</source>
+        <target>ProInfoService</target>
+      </trans-unit>
+      <trans-unit id="experience.proinfo_period" datatype="html">
+        <source> октябрь 2025 — настоящее время </source>
+        <target>October 2025 – present</target>
+      </trans-unit>
+      <trans-unit id="experience.proinfo_role" datatype="html">
+        <source> Frontend-разработчик, Angular · платформа цифровых двойников городской инфраструктуры </source>
+        <target>Frontend Developer, Angular · urban infrastructure digital twin platform</target>
+      </trans-unit>
+      <trans-unit id="experience.proinfo_modules" datatype="html">
+        <source> Новые бизнес-модули на Angular 21: standalone-компоненты, Signals, OnPush. </source>
+        <target>New business modules in Angular 21: standalone components, Signals, OnPush.</target>
+      </trans-unit>
+      <trans-unit id="experience.proinfo_state" datatype="html">
+        <source> Состояние на NgRx (Store, Effects, Entity) и Signal Store; REST и WebSocket (STOMP). </source>
+        <target>State management with NgRx (Store, Effects, Entity) and Signal Store; REST and WebSocket (STOMP).</target>
+      </trans-unit>
+      <trans-unit id="experience.proinfo_maps" datatype="html">
+        <source> Картографические модули на Leaflet и Turf.js, интеграция 3D-сцен Unreal Engine через Pixel Streaming. </source>
+        <target>Map modules built with Leaflet and Turf.js, integration of Unreal Engine 3D scenes via Pixel Streaming.</target>
+      </trans-unit>
+      <trans-unit id="experience.proinfo_zoneless" datatype="html">
+        <source>Миграция на zoneless и OnPush.</source>
+        <target>Migration to zoneless and OnPush.</target>
+      </trans-unit>
+      <trans-unit id="experience.proinfo_quality" datatype="html">
+        <source> ESLint, Stylelint, проверки в CI/CD, unit-тесты на Jest. </source>
+        <target>ESLint, Stylelint, CI/CD checks, unit tests with Jest.</target>
+      </trans-unit>
+      <trans-unit id="experience.profit_period" datatype="html">
+        <source> январь 2023 — октябрь 2025 </source>
+        <target>January 2023 – October 2025</target>
+      </trans-unit>
+      <trans-unit id="experience.profit_role" datatype="html">
+        <source> Frontend-разработчик, Angular 14–20 · команда около 12 человек </source>
+        <target>Frontend Developer, Angular 14–20 · team of about 12 people</target>
+      </trans-unit>
+      <trans-unit id="experience.profit_launch" datatype="html">
+        <source> Запустил и развивал фронтенд-проект рассылок с нуля. </source>
+        <target>Launched and developed a messaging campaign frontend project from scratch.</target>
+      </trans-unit>
+      <trans-unit id="experience.profit_infra" datatype="html">
+        <source> Настроил Nx-монорепозиторий, CI/CD, ESLint, Husky, Prettier; локализация на Transloco. </source>
+        <target>Set up an Nx monorepo, CI/CD, ESLint, Husky and Prettier; localization with Transloco.</target>
+      </trans-unit>
+      <trans-unit id="experience.profit_ui_lib" datatype="html">
+        <source> Развивал UI-библиотеку на Taiga UI, вёл код-ревью и документацию. </source>
+        <target>Developed a UI library on top of Taiga UI, conducted code reviews and maintained documentation.</target>
+      </trans-unit>
+      <trans-unit id="experience.profit_refactoring" datatype="html">
+        <source> Рефакторинг старого кода, lazy-loading, virtual scroll. </source>
+        <target>Refactored legacy code, introduced lazy loading and virtual scroll.</target>
+      </trans-unit>
+      <trans-unit id="experience.aim_company" datatype="html">
+        <source>Эйм</source>
+        <target>Aim</target>
+      </trans-unit>
+      <trans-unit id="experience.aim_period" datatype="html">
+        <source>август 2022 — январь 2023</source>
+        <target>August 2022 – January 2023</target>
+      </trans-unit>
+      <trans-unit id="experience.aim_role" datatype="html">
+        <source> Frontend-разработчик · команда из 3 человек </source>
+        <target>Frontend Developer · team of 3 people</target>
+      </trans-unit>
+      <trans-unit id="experience.aim_spa" datatype="html">
+        <source> SPA на React и Redux/MobX с бэкендом на Node.js и PostgreSQL. </source>
+        <target>SPAs built with React and Redux/MobX, with a Node.js and PostgreSQL backend.</target>
+      </trans-unit>
+      <trans-unit id="experience.aim_process" datatype="html">
+        <source> Сборка на Webpack и Gulp, общение с заказчиками, сбор требований. </source>
+        <target>Build setup with Webpack and Gulp, communication with clients, requirements gathering.</target>
+      </trans-unit>
+      <trans-unit id="projects.title" datatype="html">
+        <source>Проекты</source>
+        <target>Projects</target>
+      </trans-unit>
+      <trans-unit id="projects.zvonobot_desc" datatype="html">
+        <source> Сервис массовых голосовых рассылок. Как frontend-разработчик делал личный кабинет, конструктор рассылок (дерево сценария звонка, где можно настроить реакцию на действия абонента), настройки баз номеров с чёрными списками и разными странами, таблицы промокодов. </source>
+        <target>A mass voice call campaign service. As a frontend developer, I built the user account, the campaign builder (a call scenario tree where you can configure the reaction to the recipient's actions), phone number database settings with blacklists and different countries, and promo code tables.</target>
+      </trans-unit>
+      <trans-unit id="projects.p1sms_desc" datatype="html">
+        <source> Платформа SMS-рассылок: тот же подход, что в Zvonobot, но для SMS. </source>
+        <target>An SMS campaign platform: the same approach as Zvonobot, but for SMS.</target>
+      </trans-unit>
+      <trans-unit id="projects.multi_desc" datatype="html">
+        <source> Единый кабинет, который объединяет голосовые и SMS-рассылки: Zvonobot и P1SMS в одном месте. </source>
+        <target>A single account that combines voice and SMS campaigns: Zvonobot and P1SMS in one place.</target>
+      </trans-unit>
+      <trans-unit id="projects.digital_twin_title" datatype="html">
+        <source>Цифровой двойник городской инфраструктуры</source>
+        <target>Urban Infrastructure Digital Twin</target>
+      </trans-unit>
+      <trans-unit id="projects.digital_twin_desc" datatype="html">
+        <source> Закрытый проект: карты, 3D и работа с документами. Подробности по запросу. </source>
+        <target>A private project: maps, 3D and document management. Details on request.</target>
+      </trans-unit>
+      <trans-unit id="projects.events_title" datatype="html">
+        <source> Регистрация на мероприятия </source>
+        <target>Event Registration</target>
+      </trans-unit>
+      <trans-unit id="projects.events_desc" datatype="html">
+        <source>Личный проект на Angular и .NET: авторизация, роли.</source>
+        <target>A personal project built with Angular and .NET: authentication and roles.</target>
+      </trans-unit>
+      <trans-unit id="skills.title" datatype="html">
+        <source>Навыки</source>
+        <target>Skills</target>
+      </trans-unit>
+      <trans-unit id="skills.angular_list" datatype="html">
+        <source> Signals, standalone, zoneless, OnPush, RxJS, NgRx и Signal Store, Nx </source>
+        <target>Signals, standalone, zoneless, OnPush, RxJS, NgRx and Signal Store, Nx</target>
+      </trans-unit>
+      <trans-unit id="skills.ui_title" datatype="html">
+        <source>Интерфейсы</source>
+        <target>User interfaces</target>
+      </trans-unit>
+      <trans-unit id="skills.ui_list" datatype="html">
+        <source> HTML, CSS, SCSS, BEM, Flexbox и Grid, Taiga UI, Angular Material и CDK, дизайн-системы </source>
+        <target>HTML, CSS, SCSS, BEM, Flexbox and Grid, Taiga UI, Angular Material and CDK, design systems</target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

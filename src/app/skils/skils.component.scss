@@ -1,0 +1,11 @@
+.skills {
+  display: grid;
+  gap: 1.25rem;
+}
+.skills h3 {
+  font-size: 1rem;
+  margin-bottom: 0.1rem;
+}
+.skills p {
+  color: var(--muted);
+}

@@ -7,6 +7,7 @@
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
+    "i18n": "ng extract-i18n --output-path src/locale",
     "serve:ssr:zhilknDS": "node dist/zhilknDS/server/server.mjs"
   },
   "private": true,
@@ -28,6 +29,7 @@
     "@angular/build": "^22.1.5",
     "@angular/cli": "^22.1.5",
     "@angular/compiler-cli": "^22.1.0",
+    "@angular/localize": "^22.2.1",
     "@types/express": "^5.0.1",
     "@types/node": "^20.17.19",
     "jsdom": "^28.0.0",

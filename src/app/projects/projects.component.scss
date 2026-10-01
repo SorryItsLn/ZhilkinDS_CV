@@ -1,0 +1,23 @@
+.projects {
+  display: grid;
+  gap: 1rem;
+}
+@media (min-width: 640px) {
+  .projects {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+.card {
+  background: var(--surface);
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  padding: 1.1rem 1.25rem;
+}
+.card h3 {
+  font-size: 1.05rem;
+  margin-bottom: 0.35rem;
+}
+.card p {
+  color: var(--muted);
+  font-size: 0.95rem;
+}

@@ -1,0 +1,32 @@
+<header class="side">
+  <div>
+    <h1 class="name" i18n="@@header.name">Дмитрий Жилкин</h1>
+    <p class="role" i18n="@@header.role">
+      Frontend-разработчик, Angular<br />Пермь · гибрид и удалённо
+    </p>
+  </div>
+  <nav class="nav" aria-label="Разделы" i18n-aria-label="@@header.nav_label">
+    <a href="#about" i18n="@@header.nav_about">Обо мне</a>
+    <a href="#experience" i18n="@@header.nav_experience">Опыт</a>
+    <a href="#projects" i18n="@@header.nav_projects">Проекты</a>
+    <a href="#skills" i18n="@@header.nav_skills">Навыки</a>
+    <a href="#contacts" i18n="@@header.nav_contacts">Контакты</a>
+  </nav>
+  <div class="actions">
+    <a class="btn btn--primary" href="https://t.me/Youngln" i18n="@@header.telegram">
+      Написать в Telegram
+    </a>
+    <a class="btn" href="https://github.com/SorryItsLn">GitHub</a>
+    <a class="btn" href="resume.pdf" download i18n="@@header.download_pdf">Скачать PDF</a>
+    <button
+      class="btn"
+      type="button"
+      aria-label="Переключить тему"
+      i18n-aria-label="@@header.theme_label"
+      i18n="@@header.theme"
+      (click)="toggleTheme()"
+    >
+      Тема
+    </button>
+  </div>
+</header>

@@ -1,0 +1,55 @@
+.timeline {
+  display: grid;
+  gap: 2rem;
+  border-left: 2px solid var(--line);
+  padding-left: 1.5rem;
+}
+.job {
+  position: relative;
+}
+.job::before {
+  content: '';
+  position: absolute;
+  left: calc(-1.5rem - 6px);
+  top: 0.55rem;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background: var(--accent);
+}
+.job__head {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 0.25rem 1rem;
+}
+.job__company {
+  font-size: 1.15rem;
+  font-weight: 700;
+}
+.job__period {
+  color: var(--muted);
+  font-size: 0.9rem;
+}
+.job__role {
+  color: var(--muted);
+  margin-bottom: 0.75rem;
+}
+.job__points {
+  display: grid;
+  gap: 0.4rem;
+  max-width: 68ch;
+}
+.job__points li {
+  padding-left: 1rem;
+  position: relative;
+}
+.job__points li::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0.7em;
+  width: 5px;
+  height: 2px;
+  background: var(--muted);
+}

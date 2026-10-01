@@ -1,0 +1,24 @@
+.contacts {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+.btn {
+  display: inline-block;
+  padding: 0.55rem 1rem;
+  border-radius: var(--radius);
+  border: 1px solid var(--line);
+  background: var(--surface);
+  color: var(--ink);
+  text-decoration: none;
+  font: inherit;
+  cursor: pointer;
+}
+.btn:hover {
+  border-color: var(--accent);
+}
+.btn--primary {
+  background: var(--accent);
+  color: var(--accent-ink);
+  border-color: var(--accent);
+}
