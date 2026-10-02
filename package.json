@@ -8,7 +8,8 @@
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
     "i18n": "ng extract-i18n --output-path src/locale",
-    "serve:ssr:zhilknDS": "node dist/zhilknDS/server/server.mjs"
+    "serve:ssr:zhilknDS": "node dist/zhilknDS/server/server.mjs",
+    "build:gh": "ng build --base-href /zhilkinDS.resume.ru/"
   },
   "private": true,
   "packageManager": "npm@11.19.0",

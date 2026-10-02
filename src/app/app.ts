@@ -1,5 +1,5 @@
-import { Component, inject, signal } from '@angular/core';
-import { ThemeService } from '../services/theme.service';
+import { Component, inject, OnInit } from '@angular/core';
+import { THEMES, ThemeService } from '../services/theme.service';
 import { AsideComponent } from './aside/aside.component';
 import { MainComponent } from './main/main.component';
 
@@ -8,11 +8,19 @@ import { MainComponent } from './main/main.component';
   selector: 'app-root',
   styleUrl: './app.scss',
   templateUrl: './app.html',
-  host: {
-    '[attr.data-theme]': 'themeService.theme()',
-  },
 })
-export class App {
+export class App implements OnInit {
   protected readonly themeService = inject(ThemeService);
-  protected readonly title = signal('zhilknDS');
+
+  ngOnInit() {
+    const t = localStorage?.getItem('theme');
+
+    if (t === THEMES.DARK || t === THEMES.LIGHT) {
+      console.log(t);
+
+      this.themeService.setTheme(t);
+    } else {
+      this.themeService.setTheme(THEMES.LIGHT);
+    }
+  }
 }
