@@ -16,8 +16,6 @@ export class App implements OnInit {
     const t = localStorage?.getItem('theme');
 
     if (t === THEMES.DARK || t === THEMES.LIGHT) {
-      console.log(t);
-
       this.themeService.setTheme(t);
     } else {
       this.themeService.setTheme(THEMES.LIGHT);

@@ -12,5 +12,6 @@ export class AsideComponent {
 
   toggleTheme() {
     this.themeService.toggleTheme();
+    console.log('tiggle');
   }
 }

@@ -1,6 +1,6 @@
 {
   "routes": {
-    "/ZhilkinDS_CV/en": {},
-    "/ZhilkinDS_CV/ru": {}
+    "/ZhilkinDS_CV/dist/zhilknDS/browser/en": {},
+    "/ZhilkinDS_CV/dist/zhilknDS/browser/ru": {}
   }
 }
